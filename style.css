@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Configuraões globais do CSS */
+body{
+    background-image:linear-gradient(to right, #5596DC, #5AC1DB, #5ADBCB,#A3DBD4);
+    font: normal 15pt Arial;
+    height: 100%;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    color: #DB6C5A;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 3px, 3px, 10px, rgba(0, 0, 0, 0.366);
+}
+
+select#selLista{
+    width: 150px;
+}
+
+button {
+  background-color: #DB6C5A;
+  border-radius: 15px;
+  padding: 5px 5px;
+  font-size: 0.8em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
